@@ -62,6 +62,20 @@ const NewsList = () => {
             </div>
             <button className='bg-[#00df9a] w-[70%] rounded-md font-medium my-6 mx-auto px-6 py-3'>View More</button>
             </div>
+            <div className='bg-white border-gray-700 hover:animate-bounce border-8 shadow-xl flex flex-col col-span-2 p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <div className="flex flex-col items-center">
+                <img className='w-20 mx-auto bg-white float-left' src={Single} alt="/" />
+                <h2 className='text-2xl font-bold text-center py-8'>News 5</h2>
+            </div>
+            <div className='flex flex-row justify-center'>
+                <span className="inline-block px-2 py-0.5 text-xs mx-1 font-semibold tracking-wide text-white uppercase bg-blue-500 rounded-full">btc</span>
+                <span className="inline-block px-2 py-0.5 text-xs mx-1 font-semibold tracking-wide text-white uppercase bg-red-500 rounded-full">eth</span>
+            </div>
+            <div className='text-center font-medium mt-2'>
+                <p className='py-2 mx-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis consequatur nobis quaerat unde odio pariatur quidem quia at, maiores saepe vitae distinctio et necessitatibus veniam error a veritatis itaque possimus?</p>
+            </div>
+            <button className='bg-[#00df9a] w-[70%] rounded-md font-medium my-6 mx-auto px-6 py-3'>View More</button>
+            </div>
         </div>
     </div>
   )
